@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.training.droidbountyhunter.Home">
+    <item
+        android:id="@+id/menu_home_agregar"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Guiar"
+        app:showAsAction="always" />
+
+
+</menu>

@@ -1,0 +1,68 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+            android:id="@+id/etiquetaMensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/etiqueta_mensaje"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"/>
+
+    <ImageView
+            android:id="@+id/pictureFugitivo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/etiquetaMensaje"
+            android:layout_centerHorizontal="true"
+            android:src="@android:drawable/ic_menu_gallery" />
+<!--
+    <Button
+            android:id="@+id/botonCapturar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="30dp"
+            android:minWidth="100dp"
+            android:text="@string/boton_capturar"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/pictureFugitivo"
+            android:onClick="capturarFugitivoPresionado"
+            android:layout_centerHorizontal="true"/>
+
+    <Button
+            android:id="@+id/botonEliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="30dp"
+            android:minWidth="100dp"
+            android:text="@string/boton_eliminar"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_below="@+id/botonCapturar"
+            android:onClick="eliminarFugitivoPresionado"
+            android:layout_centerHorizontal="true"/>
+
+    <Button
+            android:id="@+id/botonTomarFoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_foto"
+            android:layout_below="@+id/botonEliminar"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:onClick="onFotoClick"/>
+
+    <Button
+            android:id="@+id/botonMapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_mapa"
+            android:layout_below="@+id/botonTomarFoto"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:onClick="onMapClick"/>-->
+
+</RelativeLayout>

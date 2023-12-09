@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DroidBountyHunterKotlin</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="titulo_capturados">Capturados</string>
+    <string name="titulo_fugitivos">Fugitivos</string>
+    <string name="titulo_acerca_de">Acerca de...</string>
+    <string name="menu_editar">Editar</string>
+    <string name="boton_guardar">Guardar</string>
+    <string name="boton_eliminar">Eliminar</string>
+    <string name="boton_capturar">Capturar</string>
+    <string name="campo_nombre">Nombre del Fugitivo</string>
+    <string name="etiqueta_desarrollo">Desarrollado por:</string>
+    <string name="nombre_desarrollador">Alejandro Arellano</string>
+    <string name="etiqueta_empresa">S-Riko Automotive Hose de Chihuahua</string>
+    <string name="etiqueta_mensaje">Mensaje...</string>
+    <string name="boton_foto">Tomar Foto</string>
+
+    <string name="titulo_activity_agregar">Nuevo fugitivo</string>
+    <string name="titulo_activity_detalle">Detalle Fugitivo</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="boton_mapa">Ver mapa</string>
+</resources>
